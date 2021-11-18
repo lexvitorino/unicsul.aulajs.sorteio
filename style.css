@@ -1,0 +1,35 @@
+body{
+    font-family: arial;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-around;
+}
+
+button {
+    width: 40%;
+    background-color: cornflowerblue;
+    border: 0;
+    height: 35px;
+    border-radius: 5px;
+    color: cornsilk;
+}
+
+button:hover {
+    background-color: cornsilk;
+    color: cornflowerblue;
+    cursor: pointer;
+}
